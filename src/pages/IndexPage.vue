@@ -18,7 +18,7 @@
         filled
         v-model="name"
         label="Your name *"
-        hint="Name and surname"
+        hint="西米·库克雷亚 6404101310"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
     />
